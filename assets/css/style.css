@@ -302,6 +302,33 @@
     display: block;
 }
 
+.menubar {
+    width: 48px;
+    margin-top: 12px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line-1 {
+    width: 24px;
+    height: 2px;
+    background-color: black;
+}
+
+.line-2 {
+    width: 24px;
+    height: 2px;
+    background: black;
+}
+
+.line-3 {
+    width: 24px;
+    height: 2px;
+    background: black;
+}
+
 @media (min-width:992px) {
     .Search-button {
         display: none;
@@ -392,4 +419,20 @@
         overflow-x: scroll;
     }
 
+}
+
+@media (max-width:768px) {
+    .feed-1 {
+        display: none;
+    }
+
+    .nav-ba-r {
+        display: inline-flex;
+        justify-content: end;
+        gap: 200px;
+    }
+
+    .container {
+        padding-top: 0;
+    }
 }
