@@ -302,14 +302,14 @@
     display: block;
 }
 
-.menubar {
+/* .menubar {
     width: 48px;
     margin-top: 12px;
     height: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
 .line-1 {
     width: 24px;
@@ -349,6 +349,10 @@
         padding-left: 12px;
         padding-right: 12px;
 
+    }
+
+    .togglebox {
+        width: 92px;
     }
 
     .col-lg-4 {
